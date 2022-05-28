@@ -1,7 +1,7 @@
-# NFTplatform-for-enterprise
+**# NFTplatform-for-enterprise
 
 
-## **Project Consult (0528)**
+### **Project Consult (0528)**
 
 -   기간
     -   2022.06.02~2022.06.30
@@ -32,3 +32,4 @@
     - --
 
 -   설계(작성중)
+**
