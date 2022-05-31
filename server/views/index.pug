@@ -3,3 +3,34 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  br
+  br
+  #newaccounts
+      h2 make address
+      input(type="text")
+      br
+      .address-result {address}
+      button(onclick="") Submit
+      br
+      br
+      
+  #getAccounts
+      h2 wallet lists
+      button(onclick="") Submit
+      br
+      p.accounts -
+      
+  #sender
+      h2 for send
+      label mywallet
+      input(type="text")
+      br
+      label amounts
+      input(type="text")
+      br
+      br
+      label target address
+      input(type="text")
+      button(onclick="") Submit
+
