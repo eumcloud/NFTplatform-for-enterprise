@@ -1,0 +1,69 @@
+{
+    "contractName": "testContract",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/workspace/enterprise-propose/truffle/contracts/testContract.sol\":\"testContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/workspace/enterprise-propose/truffle/contracts/testContract.sol\":{\"keccak256\":\"0x35e38828f6979c291dfdde5f6c687f1c88714a3d74aae0b6ca31068ba9cff52c\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6b0b7f950f7f3d38ae6594bdf3c202653c0bc95ef3a8f7e44d9b7146f0ee7c9e\",\"dweb:/ipfs/QmTq7w4UrSw4TLtnzgoNiPBARBWiuZt4UKLLuZc9bCfSce\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220d368297d5c0fe0448fcd31e2b3b2c8cfa824cafb5db07243dd756d91c87c788564736f6c634300080e0033",
+    "deployedBytecode": "6080604052600080fdfea2646970667358221220d368297d5c0fe0448fcd31e2b3b2c8cfa824cafb5db07243dd756d91c87c788564736f6c634300080e0033",
+    "sourceMap": "67:30:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "67:30:0:-:0;;;;;",
+    "sourcePath": "/workspace/enterprise-propose/truffle/contracts/testContract.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.14+commit.80d49f37"
+    },
+    "ast": {
+        "absolutePath": "/workspace/enterprise-propose/truffle/contracts/testContract.sol",
+        "exportedSymbols": {
+            "testContract": [
+                2
+            ]
+        },
+        "id": 3,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.4",
+                    ".21",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "32:33:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "testContract",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 2,
+                "linearizedBaseContracts": [
+                    2
+                ],
+                "name": "testContract",
+                "nameLocation": "76:12:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [],
+                "scope": 3,
+                "src": "67:30:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "32:65:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}
